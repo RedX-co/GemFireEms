@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/RedX-co/GemFireEms/issues"
   },
-  "homepage": "https://github.com/RedX-co/GemFireEms#readme"
+  "homepage": "https://github.com/RedX-co/GemFireEms#readme",
+  "dependencies": {
+    "harp": "^0.22.0"
+  }
 }
