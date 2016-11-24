@@ -6,6 +6,21 @@
 	background: url(/img/test.gif) no-repeat center center;
 	background-size: cover;
 }
+h6 {
+	font-size: 4rem;
+	line-height: 1.5em;
+	letter-spacing: -0.025em;
+	font-weight: 300;
+	text-align: center; }
+
+h5 {
+		font-family: 'EB Garamond', serif;
+		color: #0DCC00;
+		font-size: 4rem;
+		line-height: 1.5em;
+		letter-spacing: -0.025em;
+		font-weight: 300;
+		text-align: center; }
 
 #map {
   	width: 100%;
