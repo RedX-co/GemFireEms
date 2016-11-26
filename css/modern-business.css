@@ -1,3 +1,5 @@
+.alert-red {background: #FF0000;color: #fff }
+
 html, body {
 	height: 100%;
 	margin: 0;
