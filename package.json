@@ -16,10 +16,6 @@
     "postinstall": "npm run requirements-check"
   }
 }
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/RedX-co/GemFireEms.git"
-  },
   "keywords": [
     "Fire",
     "Ems",
