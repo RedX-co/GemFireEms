@@ -2,6 +2,8 @@
   "name": "gemfireems",
   "version": "1.0.0",
   "description": "Website",
+  "engines": {
+    "node": "2.14.7",
   "main": "index.html",
   "scripts": {
     "start": "NODE_ENV=production harp server -p $PORT",
