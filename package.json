@@ -7,15 +7,10 @@
     "start": "NODE_ENV=production harp server -p $PORT",
     "dev": "harp server"
   },
-  "name": "my package",
-  "engines": {
-    "node": ">=2.14.7"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RedX-co/GemFireEms.git"
   },
-  "scripts": {
-    "requirements-check": "babel-node check-version.js",
-    "postinstall": "npm run requirements-check"
-  }
-}
   "keywords": [
     "Fire",
     "Ems",
