@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Website",
   "engines": {
-    "node": "2.14.7"
+    "node": "6.9.4"
   },
   "main": "index.html",
   "scripts": {
