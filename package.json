@@ -10,7 +10,6 @@
   "postinstall": "ng build --aot -prod",
   "start": "node server.js"
 },
-},
 "dependencies": {
   "@angular/cli": "1.2.3"},
 
