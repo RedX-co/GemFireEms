@@ -10,8 +10,7 @@
   "postinstall": "ng build --aot -prod"
 },
 "dependencies": {
-  "@angular/cli": "1.2.3",
-},
+  "@angular/cli": "1.2.3"},
 
 
 
