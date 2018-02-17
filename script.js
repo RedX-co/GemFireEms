@@ -11,10 +11,34 @@
 				controller  : 'mainController'
 			})
 
-			// route for the about page
-			.when('/about', {
-				templateUrl : 'pages/about.html',
-				controller  : 'aboutController'
+			// route for the equipment page
+			.when('/equipment', {
+				templateUrl : 'pages/equipment.html',
+				controller  : 'equipmentController'
+			})
+
+			// route for the station1 page
+			.when('/station1', {
+				templateUrl : 'pages/station1.html',
+				controller  : 'station1Controller'
+			})
+
+			// route for the station2 page
+			.when('/station2', {
+				templateUrl : 'pages/station2.html',
+				controller  : 'station2Controller'
+			})
+
+			// route for the station3 page
+			.when('/station3', {
+				templateUrl : 'pages/station3.html',
+				controller  : 'station3Controller'
+			})
+
+			// route for the station4 page
+			.when('/station4', {
+				templateUrl : 'pages/station4.html',
+				controller  : 'station4Controller'
 			})
 
 			// route for the contact page
@@ -27,13 +51,25 @@
 	// create the controller and inject Angular's $scope
 	scotchApp.controller('mainController', function($scope) {
 		// create a message to display in our view
-		$scope.message = 'Everyone come and see how good I look!';
+		$scope.message = '';
 	});
 
-	scotchApp.controller('aboutController', function($scope) {
-		$scope.message = 'Look! I am an about page.';
+	scotchApp.controller('station1Controller', function($scope) {
+		$scope.message = '';
 	});
 
-	scotchApp.controller('contactController', function($scope) {
-		$scope.message = 'Contact us! JK. This is just a demo.';
+	scotchApp.controller('station2Controller', function($scope) {
+		$scope.message = '';
+	});
+
+	scotchApp.controller('station3Controller', function($scope) {
+		$scope.message = '';
+	});
+
+	scotchApp.controller('station4Controller', function($scope) {
+		$scope.message = '';
+	});
+
+	scotchApp.controller('equipmentController', function($scope) {
+		$scope.message = '';
 	});
