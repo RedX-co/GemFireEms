@@ -11,6 +11,19 @@
 				controller  : 'mainController'
 			})
 
+			// route for the EMS page
+			.when('/fire', {
+				templateUrl : 'pages/fire.html',
+				controller  : 'fireController'
+			})
+
+
+			// route for the EMS page
+			.when('/ems', {
+				templateUrl : 'pages/ems.html',
+				controller  : 'emsController'
+			})
+
 			// route for the equipment page
 			.when('/equipment', {
 				templateUrl : 'pages/equipment.html',
@@ -41,6 +54,12 @@
 				controller  : 'station4Controller'
 			})
 
+			// route for the station3 page
+			.when('/employment', {
+				templateUrl : 'pages/employment.html',
+				controller  : 'employmentController'
+			})
+
 			// route for the contact page
 			.when('/contact', {
 				templateUrl : 'pages/contact.html',
@@ -51,6 +70,14 @@
 	// create the controller and inject Angular's $scope
 	scotchApp.controller('mainController', function($scope) {
 		// create a message to display in our view
+		$scope.message = '';
+	});
+
+	scotchApp.controller('emsController', function($scope) {
+		$scope.message = '';
+	});
+
+	scotchApp.controller('fireController', function($scope) {
 		$scope.message = '';
 	});
 
@@ -67,6 +94,10 @@
 	});
 
 	scotchApp.controller('station4Controller', function($scope) {
+		$scope.message = '';
+	});
+
+	scotchApp.controller('employmentController', function($scope) {
 		$scope.message = '';
 	});
 
