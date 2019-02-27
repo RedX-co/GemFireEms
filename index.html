@@ -2,7 +2,7 @@
 
 <!-- define angular app -->
 <html ng-app="scotchApp">
-
+<app-root></app-root>
 <head>
   <!-- SCROLLS -->
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
@@ -38,6 +38,16 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135251176-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-135251176-1');
+  </script>
+
 </head>
 
 <!-- define angular controller -->
@@ -68,11 +78,12 @@
               <ul class="nav navbar-nav navbar-right">
                   <li><a href="#">Home</a></li>
                   <li><a href="#fire">Fire</a></li>
-                  <!--
                   <li><a href="#ems">EMS</a></li>
-                  <li><a href="#employment">Employment</a></li>
-                -->
                   <li><a href="#equipment">Our Equipment</a></li>
+                  <li><a href="#employment">Employment</a></li>
+                  <!--
+                  <li><a href="#staff">Staff</a></li>
+                -->
                   <li><a href="#contact">Contact Us</a></li>
               </ul>
           </div>
@@ -118,11 +129,36 @@
                           <a href="mailto:info@gemfireems.org" target="_top">info@gemfireems.org</a>
                       </li>
                     </ul>
-
-
-
                   </div>
 
+                  <div class="col-md-3">
+
+                      <h3>Fire Station #2</h3>
+
+                      <ul id="contact-info">
+                      <li>
+                            <i class="fa fa-home"></i>
+                            <span class="field">Address:</span>
+                            7680 W. Idaho Blvd. <br>
+                            Letha, Idaho 83617
+                      </li>
+                      </ul>
+                  </div>
+
+
+                  <div class="col-md-3">
+
+                    <h3>Fire Station #3</h3>
+
+                    <ul id="contact-info">
+                      <li>
+                          <i class="fa fa-home"></i>
+                          <span class="field">Address:</span>
+                          6850 Van Deusen Rd<br>
+                          Emmett, Idaho 83617
+                      </li>
+                    </ul>
+                  </div>
 
                   <div class="col-md-3">
 
@@ -148,15 +184,16 @@
                           <a href="mailto:info@gemfireems.org" target="_top">info@gemfireems.org</a>
                       </li>
                       </ul>
-
                   </div>
+
+
               </div>
 
               <br /><br />
               <div class="row-fluid">
                   <div class="span12">
                       <p class="copyright">
-                          Copyright © 2017 Gem County Fire-EMS.
+                          Copyright © 2019 Gem County Fire-EMS.
                       </p>
 
                   </div>

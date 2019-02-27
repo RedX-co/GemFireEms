@@ -60,6 +60,12 @@
 				controller  : 'employmentController'
 			})
 
+			// route for the staff page
+			.when('/staff', {
+				templateUrl : 'pages/staff.html',
+				controller  : 'staffController'
+			})
+
 			// route for the contact page
 			.when('/contact', {
 				templateUrl : 'pages/contact.html',
@@ -98,6 +104,10 @@
 	});
 
 	scotchApp.controller('employmentController', function($scope) {
+		$scope.message = '';
+	});
+
+	scotchApp.controller('staffController', function($scope) {
 		$scope.message = '';
 	});
 
