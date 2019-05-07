@@ -70,7 +70,12 @@
 			.when('/contact', {
 				templateUrl : 'pages/contact.html',
 				controller  : 'contactController'
-			});
+			})
+			// route for the links page
+			.when('/links', {
+				templateUrl : 'pages/links.html',
+				controller  : 'linksController'
+			})
 	});
 
 	// create the controller and inject Angular's $scope
@@ -112,5 +117,9 @@
 	});
 
 	scotchApp.controller('equipmentController', function($scope) {
+		$scope.message = '';
+	});
+
+	scotchApp.controller('linksController', function($scope) {
 		$scope.message = '';
 	});
