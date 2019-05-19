@@ -10,11 +10,6 @@
   "postinstall": "ng build --aot -prod",
   "start": "node server.js"
 },
-<<<<<<< HEAD
-=======
-"dependencies": {
-  "@angular/cli": "1.2.3"},
->>>>>>> parent of c0f9ef9... bug
 
 
 
