@@ -10,6 +10,10 @@
   "postinstall": "ng build --aot -prod",
   "start": "node server.js"
 },
+"dependencies": {
+  "@angular/cli": "1.2.3",
+  "harp": "*"
+},
 
 
 
@@ -39,6 +43,6 @@
   "homepage": "https://github.com/RedX-co/GemFireEms#readme",
   "dependencies": {
     "harp": "^0.22.0",
-    "@angular/cli": "1.2.3"
+    "mustache": "^2.3.0"
   }
 }
