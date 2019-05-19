@@ -11,9 +11,7 @@
   "start": "node server.js"
 },
 "dependencies": {
-  "@angular/cli": "1.2.3",
-  "harp": "*"
-},
+  "@angular/cli": "1.2.3"},
 
 
 
