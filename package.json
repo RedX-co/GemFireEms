@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Website",
   "engines": {
-    "node": "12.2.0",
-    "npm": "6.9.0"
+    "node": "6.9.4",
+    "npm": "3.10.10"
   },
   "scripts": {
   "postinstall": "ng build --aot -prod",
