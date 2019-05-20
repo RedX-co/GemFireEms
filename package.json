@@ -7,22 +7,14 @@
     "npm": "3.10.10"
   },
   "scripts": {
-  "postinstall": "ng build --aot -prod",
-  "start": "node server.js"
-},
-"dependencies": {
-  "@angular/cli": "1.2.3"},
-
-
-
-
-
-
-  "main": "index.html",
-  "scripts": {
     "start": "NODE_ENV=production harp server -p $PORT",
     "dev": "harp server"
   },
+  "dependencies": {
+    "harp": "^0.22.0",
+    "mustache": "^2.3.0",
+  },
+  "main": "index.html",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RedX-co/GemFireEms.git"
@@ -38,9 +30,5 @@
   "bugs": {
     "url": "https://github.com/RedX-co/GemFireEms/issues"
   },
-  "homepage": "https://github.com/RedX-co/GemFireEms#readme",
-  "dependencies": {
-    "harp": "^0.22.0",
-    "mustache": "^2.3.0"
-  }
+  "homepage": "https://github.com/RedX-co/GemFireEms#readme"
 }
