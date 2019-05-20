@@ -5,7 +5,7 @@
    "main": "index.js",
    "dependencies": {
   "harp": "*",
-  "angular": "7.0.0"
+  "angular": "1.X"
 },
    "scripts": {
      "test": "echo \"Error: no test specified\" && exit 1"
