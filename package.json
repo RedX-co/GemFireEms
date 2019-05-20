@@ -11,14 +11,4 @@
     "harp": "*",
     "mustache": "^2.3.0",
   },
-  "main": "index.html",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/RedX-co/GemFireEms.git"
-  },
-  "keywords": [
-    "Fire",
-    "Ems",
-    "Department",
-    "County"
-  ],
+}
