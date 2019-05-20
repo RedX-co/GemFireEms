@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "Website",
   "engines": {
-    "node": "6.9.4",
-    "npm": "3.10.10"
+    "node": "12.2.0",
+    "npm": "6.9.0"
   },
 
   "dependencies": {
-    "harp": "^0.22.0",
+    "harp": "*",
     "mustache": "^2.3.0",
   },
   "main": "index.html",
