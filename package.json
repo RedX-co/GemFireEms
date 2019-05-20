@@ -1,21 +1,21 @@
 {
-   "name": "my_package",
-   "description": "",
-   "version": "1.0.0",
-   "main": "server.js",
-   "build": "npm install preact-cli && preact build",
-   "dependencies": {
-  "harp": "*",
-  "@angular/cli": "1.2.3"
-},
-   "scripts": {
-     "test": "echo \"Error: no test specified\" && exit 1"
-   },
-   "repository": {
-     "type": "git",
-     "url": "https://github.com/ashleygwilliams/my_package.git"
-   },
-   "keywords": [],
-   "author": "",
-   "license": "ISC"
- }
+  "name": "my_package",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server.js",
+  "build": "npm install preact-cli && preact build",
+  "dependencies": {
+    "@angular/cli": "1.2.3",
+    "harp": "^0.30.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ashleygwilliams/my_package.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
