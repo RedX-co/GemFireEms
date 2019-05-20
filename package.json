@@ -1,0 +1,20 @@
+{
+   "name": "my_package",
+   "description": "",
+   "version": "1.0.0",
+   "main": "index.js",
+   "dependencies": {
+  "harp": "*",
+  "@angular": "7.0.0"
+},
+   "scripts": {
+     "test": "echo \"Error: no test specified\" && exit 1"
+   },
+   "repository": {
+     "type": "git",
+     "url": "https://github.com/ashleygwilliams/my_package.git"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+ }
