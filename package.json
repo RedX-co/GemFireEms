@@ -11,7 +11,7 @@
     "dev": "harp server",
   },
   "dependencies": {
-    "harp": "^0.22.0",
+    "harp": "*"
   },
   "main": "index.html",
   "repository": {
