@@ -2,7 +2,7 @@
   "name": "my_package",
   "description": "",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "index.html",
   "build": "npm install preact-cli && preact build",
   "dependencies": {
   },
