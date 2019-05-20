@@ -5,6 +5,10 @@
    "description": "",
    "version": "1.0.0",
    "main": "index.js",
+   "dependencies": {
+  "harp": "*",
+  "@angular": "7.0.0"
+},
    "scripts": {
      "test": "echo \"Error: no test specified\" && exit 1"
    },
@@ -15,8 +19,4 @@
    "keywords": [],
    "author": "",
    "license": "ISC",
-   "bugs": {
-     "url": "https://github.com/ashleygwilliams/my_package/issues"
-   },
-   "homepage": "https://github.com/ashleygwilliams/my_package"
  }
