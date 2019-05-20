@@ -2,7 +2,8 @@
    "name": "my_package",
    "description": "",
    "version": "1.0.0",
-   "main": "index.js",
+   "main": "server.js",
+   "build": "npm install preact-cli && preact build",
    "dependencies": {
   "harp": "*",
   "@angular/cli": "1.2.3"
