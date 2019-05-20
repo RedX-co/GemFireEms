@@ -6,7 +6,7 @@
   "build": "npm install preact-cli && preact build",
   "dependencies": {
     "@angular/cli": "1.2.3",
-    "@angular/core"
+    "@angular/core": "1.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
